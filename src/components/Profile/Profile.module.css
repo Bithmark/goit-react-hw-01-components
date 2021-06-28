@@ -1,0 +1,56 @@
+.avatar {
+  width: 150px;
+  height: 150px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stats {
+  list-style: none;
+}
+
+.img {
+  display: block;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+  width: 300px;
+  background-color: yellowgreen;
+}
+
+.stats {
+  padding: 0px;
+  margin: 0px;
+  width: 300px;
+  background-color: gold;
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  margin: 10px;
+}
+
+.tag {
+  margin: 10px;
+}
+
+.location {
+  margin: 10px;
+}
+
+.list:not(:last-child) {
+  margin-right: 4px;
+}
+
+.label:not(:last-child) {
+  margin-right: 4px;
+}

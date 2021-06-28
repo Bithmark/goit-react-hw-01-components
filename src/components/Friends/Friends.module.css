@@ -1,0 +1,40 @@
+.list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: grey;
+  margin-bottom: 10px;
+  width: 150px;
+  border-radius: 25px 25px 25px 25px;
+}
+
+.avatar {
+  margin-right: 15px;
+  /* width: 100px; */
+}
+
+.Online,
+.Offline {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: green;
+  margin-right: 5px;
+}
+
+.Offline {
+  background-color: red;
+}
+
+.name {
+  color: white;
+}
